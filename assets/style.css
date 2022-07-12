@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Nunito:wght@200;400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Nunito:wght@200;400&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Nunito:wght@200;400&family=Poppins:ital,wght@1,600&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+.header-text{
+color: #d70f64;
+font-family:sans-serif;
+}
+
+.header-login-box{
+    display: inline-block;
+    margin-right: 5px;
+    width: 200px;
+}
+
+.header-login{
+display: inline-block;
+width: 116px;
+height: 50px;  
+}
+
+.vertical-line{
+float: left;
+height: 28px;
+border: 1px solid rgb(235, 228, 228);
+color: black;
+}
+
+.second-vertical-line{
+float: right;
+height: 28px;
+border-left: 1px solid rgb(235, 228, 228);
+}
+
+.circle{
+display: inline-block;
+float: left;
+width: 28px;
+height: 29px;
+border-radius: 50%;
+border: none;
+background-color: #d70f64;
+}
+
+.login-icon{
+font-size: 14px; 
+margin-left: 7.5px;
+margin-top: 0px;
+color: white;
+}
+
+.login-text{
+position: absolute;
+font-size: small;
+color: black;
+}
+.shoping-basket-icon-box{
+    width: 50px;
+    height: 38px;
+}
+
+.footer-basket-icon{
+    color: #d70f64;
+}
+
+.header.active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+}
+
+
+
+.body-heading{
+  margin-top:150px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Koulen', cursive;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+color:black;
+margin-left: 65px;
+font-size: 45px;
+}
+
+.body-heading-paragrapgh{
+    margin-left:68px;
+    margin-top: 25x;
+}
+
+.image-div{
+height: 600px;
+overflow: hidden;
+}
+
+.text-box-parent{
+margin-top: 70px;
+height: 110px;
+width: 980px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: white;
+}
+
+.form-input{
+    height: 60px;
+}
+
+.form-parent{
+    width: 680px;
+}
+
+.form-label{
+top: 40px;
+cursor: text;
+color:#808080;
+transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+
+.form-input:focus ~ .form-label{
+    font-size: 11px;
+    color: blue;
+    top: 16px;
+    left: 20px;
+    background-color: white;
+}
+
+.location-ancor-tag{
+	color:#d70f64;
+	text-decoration: none;
+	font-size: 30px;
+    top: 40px;
+    left: 650px;
+    font-size: 19px;
+}
+
+.location-ancor-tag:hover{
+    color:#d70f64;
+    }
+
+.buttan1{
+    left: 715px;
+    top: 24px;
+    height: 60px;
+    width: 250px;
+}
+
+.button-text {
+    margin-top: 10px;
+}
+
+.crousel-image{
+    height: 500px;
+}
+
+.crousel-pic-caption{
+    color:#ff3838;
+    font-size: 25px;
+}
+
+.restaurant-heading{
+    margin-top: 150px;
+    font-size: 35px;
+}
+.card-img-top{
+    transition: 1s all ease-in-out;
+}
+.card:hover img {
+    transform: scale(1.1);
+
+    }
+
+    .food-card{
+        width: 290px;
+        height: 200px;
+        
+    }
+
+    .card-image{
+        height: 210px;
+    }
+.card-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #130f40;
+}
+
+.card-heading-content{
+    font-size: 16px;
+}
+
+.card-ancor{
+    color: black;
+}
+
+.card-ancor:hover{
+    color: black;
+}
+
+.ribbon-parent{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+background-color: transparent;
+    margin-top: 30px;
+}
+
+
+
+.ribbon-1{
+    position: absolute;
+    width: 140px;
+    height: 28px;
+    background-color: #6D214F;
+
+}
+
+.ribbon-1::before{
+    margin-left: 140px;
+    margin-top: 0px;
+    content: "";
+    position: absolute;
+    border-left: 14px solid #6D214F;
+    border-right: 14px solid transparent;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+
+}
+
+.ribbon-text{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.box{
+    width: 60px;
+    height: 30px;
+    margin-top: -35px;
+ margin-left: 228px;
+}
+
+.card-star{
+    color: blue;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.rating-text{
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+    margin-top: 3px;
+}
+
+.body-text-heading{
+    margin-top: 160px;
+    font-size: 35px;
+}
+
+.body-text{
+line-height: 1.9em;
+font-size: 16px;
+}
+
+ .body-text-heading2{
+    margin-top: 30px;
+    font-size: 35px;
+ }
+
+.body-text-questions-heading{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.questions-sub-heading{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+body a {
+    text-decoration: none;
+    
+    }
+
+    .show-text{
+        font-size: 22px;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .show-text:hover{
+        background-color: #d70f64;
+        margin-right: 50px;
+        background-size: 100px;
+        color: white;
+    }
+
+    .hide-text{
+        font-size: 22px;
+        color: black;
+        margin-top: 0px;
+    }
+
+    .hide-text:hover{
+        background-color: #d70f64;
+        margin-right: 50px;
+        background-size: 100px;
+        color: white;
+    }
+
+    .body-hide-text-heading{
+        margin-top: 30px;
+    }
+
+    .body-hide-text-content{
+        font-size: 20px;
+        line-height: 1.8;
+    }
+.body-content-ancor{
+    color: #d70f64;
+}
+
+.body-content-ancor:hover{    
+color: #d70f64;
+}
+
+.pandalogo{
+    width: 30px;
+    height: 30px;
+}
+
+.body-ancor-logo-text{
+color: #6f5b52;
+}
+
+.social-icon{
+font-size: 30px;
+color: #6f5b52;
+}
+
+.footer-list{
+    color: #6f5b52;
+}
+
+.footer-list:hover{
+    color: #d70f64;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.footer-horizontal-line{
+    margin-top: 90px;
+}
+
+.footer-span{
+        height: 18px;
+        border: 1px solid rgb(235, 228, 228);
+        color: black;
+        
+}
+
+/*<media querry for extra large screen to extra extra large screen>*/
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .text-box-parent {
+      margin-left: 65px;
+    }
+  }
+
+  /*<media querry for large screen to  extra large screen>*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .body-heading{
+        margin-top:200px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Koulen', cursive;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+      color:black;
+      margin-left: 20px;
+      font-size: 43px;
+    }
+
+    .body-heading-paragrapgh{
+        margin-left: 20px;
+    }
+    
+    .text-box-parent {
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 980px;
+      }
+
+
+    .location-ancor-tag{
+        color:#d70f64;
+        text-decoration: none;
+        font-size: 30px;
+        top: 40px;
+        font-size: 19px;
+        margin-left: 0px;
+    }
+      
+   
+    }
+
+    /*<media querry for medium screen to large screen>*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .body-heading{
+        margin-top:100px;
+        font-family: 'Bebas Neue', cursive;
+        font-family: 'Koulen', cursive;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        color:black;
+        margin-left: 20px;
+        font-size: 35px;
+      }
+      
+      .body-heading-paragrapgh{
+          margin-left:30px;
+          margin-top: 25x;
+      }
+    
+    .text-box-parent{
+        margin-top: 30px;
+        height: 0px;
+        margin-left: 10px;
+        width: 700px;
+        }
+        
+        .buttan1{
+            left: 20px;
+            top: 100px;
+            height: 45px;
+            width: 543px;
+        }
+
+        .button-text {
+            margin-top: 0px;
+        }
+
+          .form-parent{
+            width: 545px;
+          }
+
+          .form-input{
+            width: 700px;
+        }
+   
+        .location-ancor-tag{
+            color:#d70f64;
+            text-decoration: none;
+            font-size: 30px;
+            top: 40px;
+            font-size: 19px;
+            float: left;
+            margin-left: -140px;
+        }
+
+  }
+
+   /*<media querry for small screen to medium screen>*/
+
+   @media only screen and (min-width: 576px) and (max-width: 768px){
+    .body-heading{
+        font-size: 25px;
+    }
+    
+    .text-box-parent{
+        margin-top: 10px;
+        height: 0px;
+        margin-left: 5px;
+        width: 300px;
+        }
+        .buttan1{
+            left: 18px;
+            top: 100px;
+            height: 40px;
+            width: 327px;
+        }
+
+        .button-text{
+            margin-top: 0px;
+        }
+        
+          .form-parent{
+            width: 330px;
+        }
+
+        .location-ancor-tag{
+            color:#d70f64;
+            text-decoration: none;
+            font-size: 30px;
+            top: 40px;
+            left: 300px;
+            font-size: 19px;
+        }
+
+   }
+
+   /*<media querry of buttons for extra small screen to small screen>*/
+   
+   @media only screen and (max-width: 576px){
+    .text-box-parent{
+        margin-top: 250px;
+        height: 0px;
+        margin-left: 0px;
+        width: 100%;
+        }
+        
+        .buttan1{
+            left: 200px;
+            top: 100px;
+            height: 60px;
+            width: 150px;
+        }
+        
+        .body-heading{
+            margin-left: 30px;
+            margin-top: 145px;
+          font-family:helvitica ;
+          color:black;
+          position: absolute;
+          }
+          
+          .form-parent{
+            width: 330px;
+        }
+        .location-ancor-tag{
+            color:#d70f64;
+            text-decoration: none;
+            font-size: 30px;
+            top: 38px;
+            font-size: 19px;
+            left: 300px;
+        }
+
+        .body-image{
+            float: left;
+            display: inline-block;
+            margin-top: -150px;
+        }
+
+   }
+
+
+
+
+
+
+  

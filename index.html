@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3fe5b9a375.js" crossorigin="anonymous"></script>
+    <title>foodpanda</title>
+</head>
+<body>
+    <div class="container-fluid" style="margin-bottom:50px">
+        <div class="container-fluid">
+            <nav class="navbar fixed-top bg-white header">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/pandalogo.png" alt="" width="37" height="37" class="d-inline-block ms-4">
+                    <h4 class=" d-inline fw-bold .font-monospace  fs-4 header-text">foodpanda</h4>
+                </a>
+                <div class="header-login-box">
+                    <div class="header-login p-0">
+                        <span class="vertical-line d-none d-lg-block mt-2"></span>
+                        <a href="#">
+                            <div class="circle ms-3 mt-2">
+                                <i class="fa-solid fa-user login-icon "></i>
+                                <p class="d-inline-block ms-3 fw-bold mt-1 login-text">LOGIN</p>
+                            </div>
+                        </a>
+                        <span class="second-vertical-line d-none d-lg-block mt-2"></span>
+                    </div>
+                    <div class="shoping-basket-icon-box d-inline-block float-end me-2 mt-1">
+                        <a href="#">
+                            <i class="fa-solid fa-basket-shopping ms-2 mt-2 fs-5 footer-basket-icon "></i>
+                        </a>
+                    </div>
+                </div>    
+            </nav>
+        </div>
+        <div class="container-fluid p-0">
+           <div class="row ">
+               <div class="col-sm-8 p-0">
+                <h1 class="body-heading">Food Delivery from <strong>مُلتان</strong>’s  Best Restaurants</h1>
+                <p class="body-heading-paragrapgh fw-lighter">The meals you love, delivered with care</p>
+                 <div class="text-box-parent w-60 d-inline-block position-absolute">
+                    <div class="form-outline form-parent mt-4 ms-3">
+                        <input type="text" id="formControlLg" class="form-control form-control-lg form-input shadow-none" autocomplete="off">
+                        <label class="ms-3 form-label position-absolute" for="formControlLg">Enter your full address</label>
+                        <a href="#" class=" position-absolute location-ancor-tag"><i class="fa-solid fa-location-crosshairs location-icon"></i></a>
+                        <button type="button" class="btn btn-outline-danger btn-lg position-absolute buttan1"><p class=" button-text text-center fs-6  fw-bold">Find restaurants near you</p></button>
+                      </div> 
+                </div>
+               </div>
+               <div class="col-sm-4 p-0">
+                   <div class="image-div">
+                    <img src="assets/images/food.png" class=" h-100 body-image" alt="image not found">
+                   </div>
+               </div>
+           </div>
+        </div>
+        <div class="container-fluid p-0">
+         <div class="row p-0">
+            <div class="col-sm-12 p-0">
+                <div id="carouselExampleCaptions" class="carousel crousel-dark slide p-0 mt-5" data-bs-ride="false">
+                    <div class="carousel-indicators p-0">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active arrows" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner p-0">
+                      <div class="carousel-item active p-0">
+                        <img src="assets/images/tomb.jpg" class="d-block w-100 crousel-image" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item p-0">
+                        <img src="assets/images/mosque.png" class="d-block w-100 crousel-image"" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item p-0">
+                        <img src="assets/images/tower.jpg" class="d-block w-100 crousel-image"" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev arrows" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon arrows" aria-hidden="true"></span>
+                      <span class="visually-hidden arrows">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        </div>
+            <div class="container-fluid">
+                <div class="row p-0">
+                    <div class="col-sm-12 p-0">
+                        <h4 class="fw-lighter ms-3 restaurant-heading">Popular Restaurants</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row p-0">
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card position-absolute border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold">SUMMER FLAT 15% OFF</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/pakeezayakhnipulao.png" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Pakeeza Yakhni Pulao</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ rice bowl, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">VOUCHER:HC75</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/fish.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Baba Fish Fry</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ fish fry, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">SUMMER DEALS</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/flamingstove.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Flaming Stove</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ flaming stove, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">SUMMER-20% OFF</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/zaiqa.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Tarka Chicken Pieces</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ tarka chicken, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="row p-0">
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card position-absolute border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold">SUMMER FLAT 15% OFF</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/pakeezayakhnipulao.png" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Pakeeza Yakhni Pulao</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ rice bowl, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">VOUCHER:HC75</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/fish.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Baba Fish Fry</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ fish fry, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">SUMMER DEALS</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/flamingstove.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Flaming Stove</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ flaming stove, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">SUMMER-20% OFF</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/zaiqa.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Tarka Chicken Pieces</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ tarka chicken, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mt-5">
+                <div class="row p-0">
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card position-absolute border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold">SUMMER FLAT 15% OFF</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/pakeezayakhnipulao.png" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Pakeeza Yakhni Pulao</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ rice bowl, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">VOUCHER:HC75</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/fish.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Baba Fish Fry</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ fish fry, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">SUMMER DEALS</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/flamingstove.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Flaming Stove</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ flaming stove, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                    <div class="col ms-3 p-0">
+                        <a href="#" class="card-ancor">
+                            <div class="card rounded-0 overflow-hidden food-card border-0">
+                                <div class="ribbon-parent">
+                                    <div class="ribbon-1 ribbon">
+                                        <p class="ribbon-text fw-bold ms-4">SUMMER-20% OFF</p>
+                                    </div>
+                                </div>
+                                <img src="assets/images/zaiqa.jpg" class="card-img-top rounded-0 card-image" alt="...">
+                                <div class="card-body p-0">
+                                  <h4 class="card-text mt-3">Tarka Chicken Pieces</h4>
+                                  <div class="box position-absolute">
+                                    <i class="fa-solid fa-star card-star p-0"></i>
+                                    <p class="rating-text"><strong>4.2</strong>/5</p>
+                                  </div>
+                                  <p class="fw-lighter card-heading-content">$$$ tarka chicken, pakistani, fast food</p>
+                                </div>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div class="container-fluid">
+                    <div class="row p-0">
+                        <div class="col-sm-12 p-0">
+                            <h2 class="ms-3 fw-bold body-text-heading">Order food and groceries online from the best restaurants and shops on foodpanda</h2>
+                            <p class="ms-3 body-text fw-lighter">Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? 
+                            Then foodpanda Pakistan <br> is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make
+                             your everyday easier. Our online food delivery <br> service has it all, whether you fancy Indian, Pakistani or Afghan cuisine, foodpanda Pakistan has over 15,000
+                              restaurants available in top cities like Islamabad, Lahore, Rawalpindi, and <br> Karachi. Did you know you can order your groceries and more from foodpanda, too?
+                               Check out foodpanda shops for favourite partners like Al-Fatah, Greenvalley and more. Sit back <br> and relax – let foodpanda Pakistan take the pressure off your shoulders.
+                            </p>
+                            <h2 class="ms-3 fw-bold body-text-heading2">What's new?</h2>
+                            <p class="ms-3 body-text fw-lighter">✓ Selection of premium restaurants, all kind of cuisines. <br>
+                                ✓ High quality delivery service. <br>
+                                ✓ Live chat feature to give App users instant help when they need it. <br>
+                                ✓ NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you.
+                            </p>
+                            <hr class="fw-lighter ms-3 me-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row p-0">
+                        <div class="col-sm-12 p-0">
+                            <h2 class="ms-3 fw-bold body-text-questions-heading">Frequently Asked Questions</h2>
+                            <h4 class="ms-3 questions-sub-heading fw-bold">How can I get foodpanda delivery?</h4>
+                            <p class="ms-3 body-text fw-lighter mt-3">To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your
+                                 address, browse through a variety of restaurants and cuisines, check menus and prices, <br> choose your dishes and add them to the
+                                  basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!
+                            </p>
+                            <h4 class="ms-3 questions-sub-heading fw-bold">How can I order food in Pakistan?</h4>
+                            <p class="ms-3 body-text fw-lighter mt-3">To order food delivery in Pakistan, follow these simple steps:
+                            </p>
+                            <h4 class="ms-3 questions-sub-heading fw-bold">Find a restaurant.</h4>
+                            <p class="ms-3 body-text fw-lighter d-inline-block">Enter your delivery address in the location form to see all the places that deliver 
+                                to your location. It can be your home, office, a hotel <br> or even parks!
+                            </p>
+                            <h4 class="ms-3 questions-sub-heading fw-bold">Choose your dishes. </h4>
+                            <p class="ms-3 body-text fw-lighter d-inline-block">Browse the menu of the chosen restaurant, select your dishes and add them to your basket. When you are done, press the "Checkout" button.
+                            </p>
+                            <h4 class="ms-3 questions-sub-heading fw-bold">Checkout & Payment.</h4>
+                            <p class="ms-3 body-text fw-lighter d-inline-block"> Check your order, payment method selection and exact delivery address. Simply follow the checkout instructions from there.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-12 p-0" id="showcontent">
+                    <a href="#"><p class="ms-3 show-text fw-lighter">Click Here to Read More</p></a>
+                </div>
+             </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-12 p-0" id="hidecontent">
+                    <a href="#"><p class="ms-3 show-text fw-lighter">Hide</p></a>
+                    <div class="row p-0">
+                        <div class="col-sm-12 p-0">
+
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-12 show-hide-content p-0" id="hidingcontent">
+                    <h2 class="ms-3 fw-bold body-hide-text-heading">Choose from over 28 cuisines and order online for home delivery</h2>
+                    <p class="ms-3 body-hide-text-content fw-lighter d-inline-block">Starting from the first steps of ordering food online via foodpanda Pakistan, the experience is assured
+                         to satisfy every customer. Offering a great <br> choice of food ranging from Steaks, Sushi, <a href="#" class="body-content-ancor fw-bold">Sandwiches</a>, BBQ, Tandoori Chicken, Fried Chicken to cuisines such
+                          as <a href="#" class="body-content-ancor fw-bold">Western</a>, <a href="#" class="body-content-ancor fw-bold">Italian</a>, Mediterranean, <br> Korean, Lebanese, Bakery or great Ice Cream for Dessert, foodpanda provides a delivery service made to especially care
+                           for every necessity and <br> exceed the expectations of every customer..
+                    </p>
+                    <p class="ms-3 body-hide-text-content fw-lighter d-inline-block">
+                        <a href="#" class="body-content-ancor fw-bold">Pizza in Karachi</a>, <a href="#" class="body-content-ancor fw-bold">Burger in Lahore</a> 
+                        or <a href="#" class="body-content-ancor fw-bold">Sandwitches in Islamabad</a>? Among the great cuisines available on foodpanda,
+                     choosing the one cuisine you want to order online can be a challenging task; but rest assured, you can try one special
+                      cuisine every day and foodpanda will always keep its promise and keep delivering your favorite dishes of your favorite
+                       cuisines from your favorite restaurants straight to your doorsteps! Order great pizza from 
+                       <a href="#" class="body-content-ancor fw-bold"> California Pizza</a>. Many of
+                        your favourite dishes from around the world can easily be ordered using foodpanda, like Egg Fried Rice, fresh salad
+                         and many types of Chicken, like Chicken Biryani, Chicken Manchurian, Chicken Karahi, and Chicken Tikka
+                    </p>
+                    <hr class="fw-lighter ms-3 me-5">
+                    <h2 class="ms-3 fw-bold body-hide-text-heading">Order food and grocery online with the foodpanda app</h2>
+                    <p class="ms-3 body-hide-text-content fw-lighter d-inline-block">Even when on the move, the <a href="#" class="body-content-ancor fw-bold">free foodpanda mobile application</a>
+                         for iOS, Android and Windows Phone, allows
+                         you to order food and groceries online anytime from anywhere. Whichever food you currently desire, we have
+                          the largest selection of restaurants for you to choose from, right here on foodpanda!
+                    </p>
+                    <p class="ms-3 body-hide-text-content fw-lighter d-inline-block" >In three words, the process of ordering food online
+                         is <a href="#" class="body-content-ancor fw-bold">simple, fast and conenient</a>. On the homepage you
+                         can start your order by entering your city <br> and area, which leads you to the next page listing the number
+                          of total restaurants in your area. Next, you can either select the restaurant you want from <br> the list or
+                           further refine your search result by using the cuisine filter on the left hand side of the page- all
+                            restaurants that offer your desired cuisine will <br> then be displayed. You can now select your desired 
+                            restaurant, look through the available online menu, adding all of your favorite appetizers, dishes, <br>
+                             desserts as well as beverages to your online basket. Upon completion, you can go ahead and check-out
+                              your order; now all you have to do is await <br> your food delivery. Your order will be processed, prepared
+                               and delivered straight to your home, office or your current location.
+                    </p>
+                </div>
+             </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-12 p-0">
+                    <hr class="fw-lighter ms-3 me-5">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-12 mt-4 p-0">
+                    <a href="#" class="ms-5 body-ancor-logo"><img src="assets/images/pandalogo2.png" alt="image not found" class="pandalogo"><p class="d-inline-block fw-bold fs-5 body-ancor-logo-text ">foodpanda</p></a>
+                    <a href="#" class="d-inline-block float-end me-5"><i class="fa-brands fa-facebook social-icon"></i></a>
+                    <a href="#" class="d-inline-block float-end me-3"><i class="fa-brands fa-instagram social-icon"></i></a>
+                </div>
+            </div>
+         </div> 
+         <hr class="fw-lighter ms-3 me-5">
+         <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-2 p-0">
+                    <p class="fw-lighter footer-copy-right ms-5">© 2022 foodpanda</p>
+                </div>
+                <div class="col-sm-10  p-0">
+                    <ul class="footer-tabs">
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end ms-3">Pandapay User Account Terms and Conditions</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end ms-3">Refunds with pandapay</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end ms-3">Help Center</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end">Press</li></a><br>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Terms and conditions </li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Privacy policy </li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Security</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Download foodpanda Apps</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Careers</li></a><br>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">foodpanda Magazine</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">All cuisines</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Corporate Customer </li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Suggest a restaurant</li></a><br>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">All cities</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">foodpanda Vouchers&Promo</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">pandago - Request a rider</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Partner with us</li></a><br>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">foodpanda home chef</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">pandamart Grocery Delivery </li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Update on COVID-19 in Pakistan </li></a><br>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Ramzan deals</li></a>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block float-end  ms-3">Become an affiliate </li></a>
+                    </ul>
+                </div>
+            </div>
+         </div>  
+         <hr class="fw-lighter ms-5 me-5 mt-3">
+         <hr class="fw-lighter ms-5 me-5 footer-horizontal-line">
+
+         <div class="container-fluid">
+            <div class="row p-0">
+                <div class="col-sm-12  p-0">
+                    <ul class="footer-tabs">
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-5">Laos</li></a>
+                        <span class="footer-span ms-2"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Cambodia</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Myanmar</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2 ">Thailand</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Hong Kong</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Taiwan</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Malaysia</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2"> Philippines</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2"> Singapore</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Bangladesh </li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2"> Hungary </li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Austria</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">  Norway</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">  Sweden</li></a>
+                        <span class="footer-span"></span>
+                        <a href="#" class="footer-ancor"><li class="footer-list fw-lighter d-inline-block ms-2 me-2">Finland</li>
+                    </ul>
+                </div>
+            </div>
+         </div>  
+    </div>
+        
+ <script src="assets/jquery/jquery.js"></script>
+<script type="text/javascript">
+
+    $(window).scroll(function() {     
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+        $(".header").addClass("active");
+    }
+    else {
+        $(".header").removeClass("active");
+    }
+});
+
+$(window).ready(function(){
+    $("#hidecontent, #hidingcontent").hide();
+
+    $("#showcontent").click(function(){
+        $("#hidingcontent, #hidecontent").show();
+        $("#showcontent").hide();
+        return false; // stop scrolling to top automatically
+    });
+
+    $("#hidecontent").click(function(){
+        $("#showcontent").show();
+        $("#hidecontent, #hidingcontent ").hide();
+        return false; // stop scrolling to top automatically
+    });
+
+
+
+
+
+});
+
+
+
+</script>
+   
+</body>
+
+                    
+
+</html>
